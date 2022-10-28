@@ -1,0 +1,81 @@
+/* rest */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+}
+/* second color : rgb(85, 41, 220);
+ 
+*/ 
+/* body */
+body {
+    background-color: black;
+    font-family: 'Nunito', sans-serif ;
+    text-align: center;
+}
+/* logo */
+.logo {
+    width: 100px;
+    height: 100px;
+    /* background-color:red; */
+    background-image:  url("Black\ and\ White\ Minimal\ Monogram\ Logo.png") ;
+    background-position: center;
+    background-size: cover;
+    margin: 100px auto 20px;
+}
+/* title */
+.title {
+color: white;
+}
+/* input */
+.user-input {
+    margin-right: -120px;
+height: 30px;
+border-radius: 5px;
+width: 300px;
+margin: 10px 0;
+padding: 0 15px 0 5px;
+outline: none;
+}
+
+.add-button {
+    margin-left: -10px;
+    width: 25px;
+    border-radius: 5px;
+    height: 30px;
+ 
+}
+.add-button:hover {
+    background-color: blue;
+}
+ul{
+    text-align: left;
+}
+li {
+   
+    width: 300px;
+    margin: 5px auto;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+}
+li:hover {
+    background-color: blueviolet;
+    text-decoration: line-through 2px solid yellow;
+    color: white;
+}
+.br-5 {
+    border-radius: 5px;
+}
+.bg-w {
+    background-color: white;
+    color: #333;
+}
+.checkbox {
+   height: 20px;
+    width: 20px;
+    
+
+}
